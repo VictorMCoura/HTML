@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 9 - CSS</title>
+    <style>
+        .inline {
+            display: inline;
+            background-color: aliceblue;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+            margin-right: 10px;
+            border: solid red 2px;
+        }
+        .blockcss{
+            display: block;
+            width: 10%;
+            height: 600px;
+            background-color: aliceblue;
+            margin-bottom: 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo 9 </h1>
+    <div>
+        <h2>Display in-line</h2>
+        <p>O display in-line é utilizado para fazer com que os elementos html sejam disponibilizados na mesma linha.
+            Quando utilizado, o display in-line, não inicia uma nova linha apenas ocupa o espaço necessário para seu
+            conteúdo</p>
+        <p>Exemplo do uso do display in-line</p>
+        <p>Este é um <span class="inline">elemento inline</span> dentro de um paragráfo</p>
+        <p>Veja como <span class="inline"> eles não</span> <span>inciam uma</span> <span>nova linha</span></p>
+        <h2>Exemplo 2 do uso do inline em uma lista não ordenada.</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Display block</h2>
+        <p>Elementos com display block ocupam toda largura disponivel e sempre começam em uma nova linha. São exemplos
+            do uso do display block as divs, paragráfos, as seções h1 ao h6. </p>
+            <div>
+                <h2>Exemplo display block </h2>
+            </div>
+            <div class="blockcss">Bloco 1</div>
+            <div class="blockcss">Bloco 2</div>
+            <div class="blockcss"> Bloco 3></div>
+
+    </div>
+</body>
+
+</html>
