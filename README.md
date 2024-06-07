@@ -1,1 +1,1 @@
- Exemplos de utilização de HTML e CSS basico
+ Exemplos de utilização de HTML e CSS básico
