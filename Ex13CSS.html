@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 13 - CSS Flexbox Order</title>
+    <style>
+        .wrapper{
+            display: flex;
+            flex-flow: row wrap;
+            font-weight: bold;
+            text-align: center;
+        }
+        .wrapper>*{
+        padding: 10px;
+        flex: 1 100%;
+        }
+        .header{
+            background-color: tomato;
+        }
+        .footer{
+            background-color: lightgreen;
+        }
+        .main{
+            text-align: left;
+            background-color: gold;
+        }
+        .aside1{
+            background-color: deepskyblue;
+        }
+        .aside2{
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">Header</header>
+        <article class="main">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste facere fugiat, voluptas totam quas distinctio
+            numquam architecto voluptatem libero dolorem fuga neque harum nihil, repellat sint enim, aliquid porro
+            velit.
+        </article>
+        <aside class="aside1">Aside1</aside>
+        <aside class="aside2">Aside2</aside>
+        
+        <footer class="footer">
+            footer
+        </footer>
+    </div>
+</body>
+
+</html>
