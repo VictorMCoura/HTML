@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <style>
+        /* Estilize o contêiner do formulário de login */
+        .box-login {
+            background: #01b61f;
+            width: 320px;
+            max-width: 100%;
+            margin: auto;
+            padding: 1em;
+        }
+
+        /* Estilize os campos de entrada (nome de usuário e senha) */
+        .box-login input[type="text"],
+        .box-login input[type="password"] {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #fdfdfd;
+            border-radius: 4px;
+        }
+
+        
+        .box-login button[type="submit"] {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.5em 1em;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+       
+        .box-login button[type="submit"]:hover {
+            background: #949494;
+        }
+        .box-login h2 {
+    color: #ebebeb;
+    text-shadow: 1px 1px 0 #000000, 
+                 -1px -1px 0 #000000,
+                 1px -1px 0 #000000,
+                 -1px 1px 0 #000000;
+        }
+        .box-login label {
+    color: #eeeeee;
+    text-shadow: 1px 1px 0 #000000, 
+                 -1px -1px 0 #000000,
+                 1px -1px 0 #000000,
+                 -1px 1px 0 #000000;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+</head>    
+<body>
+
+<div class="box-login">
+    <h2>Nome do usuário</h2>
+    <form action="#" method="POST">
+        <label for="usuario">Nome de usuário:</label>
+        <input type="text" id="usuario" name="usuario" required/>
+        
+        <h2>Senha</h2>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required/>
+        
+        <button type="submit">Realizar Login</button>
+        <p>Não possui conta?<a href="google.com">clique aqui para se cadastrar</a></p>
+    </form>
+</div>
+</body>
+</html>

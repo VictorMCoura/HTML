@@ -1,0 +1,33 @@
+/* Estilize o contêiner do formulário de login */
+.box-login {
+    background: #232931;
+    width: 320px;
+    max-width: 100%;
+    margin: auto;
+    padding: 1em;
+}
+
+/* Estilize os campos de entrada (nome de usuário e senha) */
+.box-login input[type="text"],
+.box-login input[type="password"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilize o botão de login */
+.box-login button[type="submit"] {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Efeito de hover para o botão de login */
+.box-login button[type="submit"]:hover {
+    background: #45a049;
+}
