@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  /* Adicione esta regra para centralizar o texto no cabeçalho */
+  header h1 {
+    margin: 0 auto;
+    max-width: 600px; /* Defina um valor adequado para a largura máxima */
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    font-size: 15px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .pokemon-data {
+    margin-top: 20px;
+  }
+  
